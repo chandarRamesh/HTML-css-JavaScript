@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+.emoji{
+
+    font-size: 10rem;
+    filter: grayscale(1);
+    transition-property: transform,filter;
+}
+
+.emoji:hover{
+    transform: scale(1.5);
+    filter: grayscale(0);
+
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: dashed 2px; */
+
+}
+
+body{
+    background-color: rgb(160, 132, 95);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    border-radius: 8px;
+    background-color: rgb(128, 197, 231);
+    box-shadow: 0px 0px  12px rgb(0, 0, 0);
+    padding: 10px;
+
+}
+
+.panel-container strong{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.container{
+    padding: 10px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratings-container{
+    display: flex;
+    padding: 10px;
+}
+
+.rating{
+    flex: 1;
+    padding: 10px;
+    margin: 10px 5px;
+    cursor: pointer;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.rating:hover,
+.rating.active{
+    background-color: wheat;
+    border-radius: 5px;
+    transition: 1s ease;
+
+}
+
+.icon{
+    font-size: 4rem;
+}
+
+small{
+    font-size: rem;
+    /* text-align: center; */
+    display: inline-block;
+}
+
+.btn{
+    border-radius: 6px;
+    padding: 15px;
+
+}
+
+.btn:hover{
+    background-color: wheat;
+    color: black;
+    transition: 1.3s ease;
+}
+
+.heart{
+    font-size: 3rem;
+    margin-bottom:10px ;
+}
