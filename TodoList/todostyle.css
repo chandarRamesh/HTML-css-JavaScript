@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px dashed; */
+}
+
+body{
+    background-color: coral;
+    display: flex;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+
+
+.container {
+    width: 400px;
+    background-color: #fff;
+    padding: 2em;
+  }
+
+.todos{
+    margin: 2rem;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+ display:block;
+}
+
+.todo{
+    border-left: 5px solid rebeccapurple;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.delete{
+    color: red;
+    cursor: pointer;
+}
